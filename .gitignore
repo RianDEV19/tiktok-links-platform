@@ -1,0 +1,24 @@
+# ==========================================
+# Configurações de IDEs (IntelliJ e VS Code)
+# ==========================================
+.idea/
+*.iml
+.vscode/
+
+# ==========================================
+# Java e Spring Boot (Maven)
+# ==========================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# ==========================================
+# Arquivos de Sistema Operacional
+# ==========================================
+*Zone.Identifier
+.DS_Store
+Thumbs.db
