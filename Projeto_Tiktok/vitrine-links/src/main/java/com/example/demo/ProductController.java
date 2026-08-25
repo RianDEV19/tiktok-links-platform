@@ -23,7 +23,7 @@ public class ProductController {
         return repository.save(product);
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     public void deleteProduct(@PathVariable Long id){
         repository.deleteById(id);
     }
